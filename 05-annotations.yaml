@@ -1,0 +1,14 @@
+kind: Prod
+apiVersion: v1
+metadata:
+  name: to learn annotations
+  labels:
+    course: Kubernetespractice
+    trainer: Siva Siva_Kumar
+  annoations:
+    kubernetes.io/created-by: 'sai kumar'
+    Jenkinsurl: "http://www.jenkins.io"
+spec:
+  containers:
+  - name: nginx
+    image: nginx
