@@ -2,9 +2,6 @@ kind: Pod
 apiVersion: v1
 metadata:
   name: annotations
-  labels:
-    name: DevOps course
-    Duration: 3 months
 spec:
   containers:
   - name: nginx
