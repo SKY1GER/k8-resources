@@ -1,0 +1,15 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: environment
+  labels:
+    name: DevOps course
+    Duration: 3 months
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    env:
+    - name: nginx container
+      environment: Dev
+      createdby: Sai
