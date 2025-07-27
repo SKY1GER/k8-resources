@@ -1,4 +1,4 @@
-kind: Prod
+kind: Pod
 apiVersion: v1
 metadata:
   name: annotations
