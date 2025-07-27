@@ -1,4 +1,4 @@
-kind: configmap
+kind: ConfigMap
 apiVersion: v1
 metadta:
   name: daws78s
