@@ -1,0 +1,8 @@
+kind: Namespace
+appVersion: v1
+metadata:
+  name: namespace
+  labels:
+    name: expense
+    environment: dev
+    
