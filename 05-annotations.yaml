@@ -1,7 +1,7 @@
 kind: Prod
 apiVersion: v1
 metadata:
-  name: Annotations
+  name: annotations
   labels:
     course: Kubernetespractice
     trainer: Siva Siva_Kumar
