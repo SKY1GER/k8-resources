@@ -10,6 +10,7 @@ spec:
   - name: nginx
     image: nginx
     env:
-    - name: nginx container
-      environment: Dev
-      createdby: Sai
+    - name: "nginx container"
+      value: "kubernetes"
+    - name: "createdby"
+      value: "sai"
