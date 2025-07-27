@@ -1,7 +1,7 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: environment
+  name: annotations
   labels:
     name: DevOps course
     Duration: 3 months
