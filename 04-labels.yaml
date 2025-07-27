@@ -3,8 +3,8 @@ apiVersion: v1
 metadata:
   name: labels
   labels:
-    course: k8 practice
-    trainer: Siva Kumar
+    course: k8_practice
+    trainer: Siva_Kumar
 spec:
   containers:
   - name: nginx
