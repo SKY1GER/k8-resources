@@ -4,7 +4,7 @@ metadata:
   name: annotations
   labels:
     course: Kubernetespractice
-    trainer: Siva Siva_Kumar
+    trainer: Siva_Kumar
   annoations:
     kubernetes.io/created-by: 'sai kumar'
     Jenkinsurl: "http://www.jenkins.io"
