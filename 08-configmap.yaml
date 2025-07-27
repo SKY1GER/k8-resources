@@ -1,6 +1,6 @@
 kind: ConfigMap
 apiVersion: v1
-metadta:
+metadata:
   name: daws78s
 data:
   Course: "DevOps"
