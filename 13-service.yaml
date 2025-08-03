@@ -8,7 +8,7 @@ spec:
     environment: dev
     project: expense
     component: frontend
-  port:
+  ports:
   - protocol: TCP
     port: 80 #serviceport differs from target port
-    targetport: 80
+    targetPort: 80
