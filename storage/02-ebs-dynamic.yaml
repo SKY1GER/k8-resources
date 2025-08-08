@@ -8,7 +8,7 @@ spec:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 5Gi
+      storage: 4Gi
 ---
 apiVersion: v1
 kind: Pod
@@ -24,8 +24,8 @@ spec:
     volumeMounts:
     - name: persistent-storage
       mountPath: /usr/share/nginx/html
-  # nodeSelector:
-  #   topology.kubernetes.io/zone: us-east-1d
+  nodeSelector:
+    topology.kubernetes.io/zone: us-east-1d
   volumes:
   - name: persistent-storage
     persistentVolumeClaim:
