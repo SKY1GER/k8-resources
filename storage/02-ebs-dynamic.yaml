@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: ebs-dynamic
+spec:
+  storageClassName: "expense-storage" #ust be explicitly set otherwise default StorageClass will be set
+  volumeName: ebs-dynamic
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi
