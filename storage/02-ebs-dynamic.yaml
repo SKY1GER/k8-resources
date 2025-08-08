@@ -4,7 +4,6 @@ metadata:
   name: ebs-dynamic
 spec:
   storageClassName: "expense-ebs" #eicitly set otherwise default StorageClass will be set
-  volumeName: ebs-dynamic
   accessModes:
     - ReadWriteOnce
   resources:
@@ -14,7 +13,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-static
+  name: nginx-dynamic
   labels:
     purpose: ebs-dynamic
     project: expense
